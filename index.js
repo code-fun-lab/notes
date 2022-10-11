@@ -85,7 +85,7 @@ passport.deserializeUser(function(obj, cb) {
 });
 
 
-/*  Google AUTH  */
+ 
  
 var GoogleStrategy = require('passport-google-oauth').OAuth2Strategy;
 const GOOGLE_CLIENT_ID = '118028452917-euet4ah5nhl5ga1a8tfc9qq2lovqa4ft.apps.googleusercontent.com';
